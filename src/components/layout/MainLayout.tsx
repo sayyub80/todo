@@ -22,7 +22,7 @@ const MainLayout = () => {
       </main>
       <footer className="bg-background border-t py-4">
         <div className="container mx-auto px-4 text-center text-gray-500 text-sm">
-          Advanced Todo App - Built with React, Redux, and TypeScript
+          Advanced Todo App - Built with React, Redux, and TypeScript.
         </div>
       </footer>
     </div>

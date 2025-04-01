@@ -13,7 +13,7 @@ const Header = () => {
     <header className="bg-background border-b">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <h1 className="text-xl font-bold">Advanced Todo App</h1>
+          <h1 className="text-xl font-bold">Taskly</h1>
         </div>
         {user && (
           <div className="flex items-center gap-4">
