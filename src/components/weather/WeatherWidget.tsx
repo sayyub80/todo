@@ -14,9 +14,13 @@ const WeatherWidget = () => {
   const { data, isLoading, error } = useAppSelector((state) => state.weather);
 
   useEffect(() => {
+    
     dispatch(fetchWeather(city));
+    console.log("hello");
+    console.log(data)
+    
   }, [dispatch, city]);
-
+  
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchCity.trim()) {

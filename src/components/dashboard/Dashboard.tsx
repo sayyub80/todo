@@ -3,6 +3,7 @@ import React from 'react';
 import TaskInput from '../tasks/TaskInput';
 import TaskList from '../tasks/TaskList';
 import WeatherWidget from '../weather/WeatherWidget';
+import AiSuggest from '../ai/AiSuggest';
 
 const Dashboard = () => {
   return (
@@ -15,6 +16,7 @@ const Dashboard = () => {
         </div>
         <div className="lg:col-span-1">
           <WeatherWidget />
+          <AiSuggest/>
           <div className="bg-gray-50 rounded-lg p-6 border">
             <h3 className="font-medium mb-3">Task Management Tips</h3>
             <ul className="list-disc list-inside space-y-2 text-sm text-gray-600">
